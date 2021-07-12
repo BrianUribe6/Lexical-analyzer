@@ -1,0 +1,88 @@
+\( left parenthesis
+\) right parenthesis
+\[ left bracket
+\] right bracket
+\{ left brace
+\} right brace
+; semicolon
+\, comma
+sizeof sizeof
+\+\+ increment
+-- decrement
+\+= plus equals
+-= minus equals
+\*= times equals
+/= divide equals
+%= mod equals
+>>= shift right equals
+<<= shift left equals
+&= bitwise AND equals
+\^= bitwise XOR equals
+\|= bitwise OR equals
+\|\| logical OR
+&& logical AND
+\? conditional true
+: conditional false
+>> shift right
+<< shift left
+== equality test
+!= inequality test
+<= less than or equal test
+>= greater than or equal test
+< less than test
+> greater than test
+= assigment
+! negate
+~ 1s complement
+\^ bitwise XOR
+\| bitwise OR
+& AND/address operator
+\. structure member
+-> structure pointer
+\+ addition
+- minus/substract operator
+\* multiply/dereference operator
+/ division
+% modulus
+" double quotation mark
+' single quotation mark
+([0-9]*\.?[0-9]+e[+-]?[0-9]+)|([0-9]*\.[0-9]+) floating point number
+0[xX][a-fA-F0-9]+ hexadecimal number
+0[0-7]* octal number
+[0-9]+ decimal number
+auto RESERVED_KEYWORD
+break RESERVED_KEYWORD
+case RESERVED_KEYWORD
+char RESERVED_KEYWORD
+const RESERVED_KEYWORD
+continue RESERVED_KEYWORD
+default RESERVED_KEYWORD
+division RESERVED_KEYWORD
+double RESERVED_KEYWORD
+else RESERVED_KEYWORD
+enum RESERVED_KEYWORD
+extern RESERVED_KEYWORD
+int RESERVED_KEYWORD
+float RESERVED_KEYWORD
+for RESERVED_KEYWORD
+goto RESERVED_KEYWORD
+identifier RESERVED_KEYWORD
+inline RESERVED_KEYWORD
+long RESERVED_KEYWORD
+register RESERVED_KEYWORD
+restrict RESERVED_KEYWORD
+return RESERVED_KEYWORD
+short RESERVED_KEYWORD
+signed RESERVED_KEYWORD
+static RESERVED_KEYWORD
+struct RESERVED_KEYWORD
+switch RESERVED_KEYWORD
+typedef RESERVED_KEYWORD
+union RESERVED_KEYWORD
+unsigned RESERVED_KEYWORD
+void RESERVED_KEYWORD
+volatile RESERVED_KEYWORD
+while RESERVED_KEYWORD
+[a-zA-Z][a-zA-Z0-9_]* word
+# preprocessor directive
+. unknown token
